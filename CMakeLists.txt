@@ -9,7 +9,8 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 # Configure your project name
 project( MyProject )
 
-# find_package( Boost REQUIRED )
+find_package( Boost 1.74.0 REQUIRED )
+include_directories(${Boost_INCLUDE_DIRS})
 
 add_subdirectory( src )
 add_subdirectory( apps )

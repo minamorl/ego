@@ -2,4 +2,4 @@
 
 namespace greeting {
     std::string greeting();
-};
+}

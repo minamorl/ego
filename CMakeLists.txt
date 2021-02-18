@@ -23,6 +23,7 @@ project( MyProject )
 
 find_package( Boost 1.74.0 REQUIRED )
 include_directories(${Boost_INCLUDE_DIRS})
+include_directories("include/")
 
-add_subdirectory( src )
+# add_subdirectory( src )
 add_subdirectory( apps )

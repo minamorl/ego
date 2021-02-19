@@ -26,4 +26,8 @@ include_directories(${Boost_INCLUDE_DIRS})
 include_directories("include/")
 
 # add_subdirectory( src )
-add_subdirectory( apps )
+
+add_subdirectory(libs/googletest)
+
+# add_subdirectory( apps )
+add_subdirectory( test )
